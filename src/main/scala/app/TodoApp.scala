@@ -35,8 +35,8 @@ object TodoApp {
     .renderBackend[Backend]
     .build
 
-  def main(args: Array[String]): Unit = {
-    TodoApp().renderIntoDOM (dom.document.getElementById("app"))
-  }
+//  def main(args: Array[String]): Unit = {
+//    TodoApp().renderIntoDOM (dom.document.getElementById("app"))
+//  }
 
 }
