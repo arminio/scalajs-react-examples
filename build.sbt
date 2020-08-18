@@ -11,7 +11,7 @@ scalaVersion := "2.13.3"
 scalaJSUseMainModuleInitializer := true
 
 libraryDependencies ++= Seq(
-  "com.github.japgolly.scalajs-react" %%% "core" % "1.7.4"
+  "com.github.japgolly.scalajs-react" %%% "core" % "1.7.5"
 )
 
 npmDependencies in Compile ++= Seq(
