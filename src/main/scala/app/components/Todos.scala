@@ -8,7 +8,7 @@ object Todos {
   case class Props(todos: Seq[String])
 
   val Todos =
-    ScalaFnComponent[Seq[String]] { props =>
+    ScalaFnComponent[Seq[String]] { props: Seq[String] =>
       <.ul(props.toVdomArray(s => Todo.Todo(s)))
     }
 
